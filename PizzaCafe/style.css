@@ -535,9 +535,9 @@ header nav {
 }
 
 .rotate{
-  width: 65%;
+  width: 50%;
   height: 65%;
-  margin: auto;
+  margin:0px auto;
 }
 .container{
   width: 90%;

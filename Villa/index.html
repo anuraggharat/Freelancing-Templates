@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="container ">
+            <div class="navbar ">
+                <div>
+                    <h1 class="">LOGO</h1>
+                </div>
+                <div class="nav-link" id="nav-links">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">About</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Gallary</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Contact</a>
+                </div>
+                <div class="nav-toggle">
+                    <button class="menu"  onclick="openNav()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+    </nav>
+    <section id="home" class="home">
+        <div class=" left">
+            <div class="home-text">
+                <div>
+                <h1 class="heading">Where first and last impressions matters!</h1>
+                </div>
+                <div class="mt-30">
+                    <button class="primary-button">Book Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-home"></div>
+    </section>
+    <section class="about" id="about">
+        <div class="container text-center">
+            <h1 class="heading logo">Luxury Villa Experience amist the Nature!</h1>
+            <p class="mt-30">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ullam iure praesentium totam nemo inventore, dolore eaque voluptatum atque iste sunt maiores voluptates similique labore, perspiciatis ratione tempora sequi earum sed quidem provident mollitia suscipit culpa! Qui animi, maiores, delectus illo asperiores ducimus repellendus fuga, ab tempora corrupti facilis blanditiis maxime est aut reiciendis culpa impedit explicabo? Consectetur, doloribus ducimus? Commodi laboriosam quidem dolor accusamus, quibusdam necessitatibus nemo exercitationem et dignissimos excepturi obcaecati. Commodi aut debitis dolore illo sit, pariatur temporibus consectetur id consequuntur ex, deserunt reiciendis nobis officia dolor assumenda quia dignissimos aliquid accusantium. Aut provident omnis illum? Quaerat.</p>
+            <button class="primary-button mt-30">Book Now</button>
+        </div>
+        <div class="container">
+            <div class="row text-center mt-30">
+                <div class="col-6">
+                    <h3>
+                    Anurag Gharat
+                    </h3>
+                    <p>anuraggharat55@gmail.com</p>
+                    <p>7788665544 / 8877665544</p>
+                </div>
+                <div class="col-6">
+                    <h3>
+                        Anurag Gharat
+                    </h3>
+                    <p>anuraggharat55@gmail.com</p>
+                    <p>7788665544 / 8877665544</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-30">
+                <div class="container">
+
+                    <div class="row justify-content-between">
+                        <div class="col-4">
+                            <ul>
+                                <li>Pool Available</li>
+                                <li>Campfire</li>
+                                <li>Extra Beds</li>
+                                <li>Lawn / Backyard</li>
+                              
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Wifi</li>
+                                <li>Breakfast</li>
+                                <li>Taxi Service</li>
+                                <li>Barbeque</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li>Rental Bikes</li>
+                                <li>House Keeping</li>
+                                <li>Parking</li>
+                                <li>Air Conditioning</li>
+                                
+                            </ul>
+                        </div>
+                            <ul>
+                                
+                            </ul>
+                    </div>
+                </div>
+    </section>
+    <section class="mt-30">
+            <div class="row mt-30">
+                <div class="column">
+                    <img src="./assets/gallaryimage1.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage2.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage3.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage4.jpg" onclick="openModal(this)" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="./assets/gallaryimage5.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage6.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage7.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage8.jpg" onclick="openModal(this)" style="width:100%">
+                    </div>
+                <div class="column">
+                    <img src="./assets/gallaryimage9.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage10.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage11.jpeg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage12.jpg" onclick="openModal(this)" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="./assets/gallaryimage1.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage2.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage6.jpg" onclick="openModal(this)" style="width:100%">
+                    <img src="./assets/gallaryimage10.jpg" onclick="openModal(this)" style="width:100%">
+                </div>
+            </div>
+            <div id="modal" class="modal" onclick="closeModal(this)">
+                <img class="modal-img" id="modal-img" />
+            </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img class="about-img" src="https://www.mangoalibaug.com/Images/MBH.jpg" alt="" srcset=""
+                        loading="lazy">
+                </div>
+                <div class="col-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt libero harum ea mollitia,
+                        voluptates
+                        praesentium sint 
+                      
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt libero harum ea mollitia,
+                        voluptates
+                        praesentium sint ratione aperiam blanditiis nihil quas non enim saepe, in amet nesciunt eos
+                        quasi quia
+                        
+                </div>
+                <div class="col-6">
+                    <img class="about-img" src="https://www.mangoalibaug.com/Images/MBH.jpg" alt="" srcset="" loading="lazy">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class="about-img" src="https://www.mangoalibaug.com/Images/MBH.jpg" alt="" srcset="" loading="lazy">
+                </div>
+                <div class="col-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt libero harum ea mollitia,
+                        voluptates
+                        praesentium sint ratione aperiam blanditiis nihil quas non enim saepe, in amet nesciunt eos
+                         </div>  
+            </div>
+        </div>
+
+    </section>
+
+    <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8083.981716956621!2d72.86817873432236!3d18.646131891516607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be87a473a1dbd89%3A0xbd02df49e62101be!2sAlibag%20Court!5e0!3m2!1sen!2sin!4v1644775227048!5m2!1sen!2sin"
+                width="100%" height="450" class="location-map" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <h2 class="logo">The Villa</h2>
+        <p>Alibag Beach Rd, Main Beach, Koliwada, Alibag 402201, Maharashtra.</p>
+        <div class=" social-icons mt-30">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-google"></i>
+            </a>
+        </div>
+        <div class="mt-30">
+            <p>Designed and Developed by Anurag</p>
+        </div>
+    </footer>
+</body>
+
+</html>

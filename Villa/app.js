@@ -19,7 +19,7 @@ function scrollFunction() {
 function openModal(ele) {
   //getting the reference of the image element
   document.getElementById("modal-img").src = ele.src;
-  document.getElementById("modal").style.display = "block";
+  document.getElementById("modal").style.display = "flex";
 }
 
 //function to close the image modal of the gallary
